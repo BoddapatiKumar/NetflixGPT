@@ -3,7 +3,7 @@
 function App() {
   return (
     <div className="App">
-      <h1>Creating netflix gpt</h1>
+      <h1>NetflixGpt</h1>
     </div>
   );
 }
