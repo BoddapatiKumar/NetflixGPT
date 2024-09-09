@@ -18,6 +18,13 @@ const Login = () => {
 
     const message=checkValidaData(email.current.value,password.current.value);
     setErrorMessage(message);
+    if(message) return;
+    if(!isSignInForm){
+      //sign up Logic
+    }
+    else{
+      //sign in Logic
+    }
   }
   return (
     <div >
